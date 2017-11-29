@@ -1,0 +1,215 @@
+html {
+  font-size: 18px;
+  color: grey;
+  font-family: Helvetica;
+}
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+/*Header*/
+header {
+  background-color: white;
+  display: flex;
+  height: 64px;
+  width: 100%;
+  align-items: center;
+}
+
+
+.logo {
+  margin-left: 24px;
+  display: flex;
+  align-items: center;
+  height: 32px;
+  flex-grow: 1;
+}
+.logo img {
+  height: 32px;
+}
+.nav {
+  display: flex;
+  align-items: center;
+
+}
+.nav span {
+  margin-right: 16px;
+}
+.nav span:last-child {
+  margin-right: 24px;
+}
+/*Container1*/
+.container1 {
+  display: flex;
+  align-items: center;
+  background-color: lightgray;
+}
+.container1 img {
+  padding: 32px 24px;
+  margin: auto;
+  width: 60%;
+}
+.textcontainer1 {
+  display: flex;
+  align-items: center;
+
+}
+.Learn {
+  line-height: 1.5;
+  font-size: 2rem;
+
+}
+.Lorem {
+  line-height: 1.3;
+  font-size: 1.5rem;
+}
+.Start {
+  background-color: grey;
+  color: white;
+  padding: 8px 50px;
+  width: 100px;
+  text-align: center;
+}
+/*container2*/
+.container2 {
+  display: flex;
+}
+.container2a {
+  width: 100%;
+  padding: 0 24px;
+
+}
+.container2a img {
+  padding: 32px 0;
+  width: 100%;
+  margin: auto;
+}
+.container2a div p:nth-child(1) {
+  margin-bottom: 24px;
+}
+.container2a div p:nth-child(3) {
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+.container2b {
+  border-left: 3px solid lightgray;
+}
+.OrientationBox {
+  border-bottom: 3px solid lightgray;
+}
+.OurCampusBox {
+  border-top: 3px solid lightgray;
+}
+.OurguestlectureBox {
+  background-color: lightgray;
+}
+.OrientationBox,
+.OurCampusBox,
+.OurguestlectureBox {
+  display: flex;
+  align-items: center;
+  margin: 1px .1px;
+}
+
+.OrientationBox img,
+.OurCampusBox img,
+.OurguestlectureBox img {
+  padding: 16px;
+  width: 35%;
+  height: auto;
+  margin: auto;
+}
+.OrientationBox p:nth-child(1),
+.OurCampusBox p:nth-child(1),
+.OurguestlectureBox p:nth-child(1) {
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.OrientationBox p:nth-child(2),
+.OurCampusBox p:nth-child(2),
+.OurguestlectureBox p:nth-child(2) {
+  color: black;
+  font-size: 1.3rem;
+
+}
+.OrientationBox p:nth-child(3),
+.OurCampusBox p:nth-child(3),
+.OurguestlectureBox p:nth-child(3) {
+  color: blue;
+}
+/*Container3*/
+.container3 {
+  background-color: lightgray;
+  padding: 32px 72px;
+}
+
+.container3 h1 {
+  margin-bottom: 32px;
+}
+.container3a,
+.container3b {
+  display: flex;
+}
+.container3a {
+  margin-bottom: 32px;
+}
+.SoftwareengineeringBox,
+.ComputerartBox,
+.DesignBox,
+.DataBox,
+.BusinessBox,
+.MarketingBox{
+  background-color: white;
+  padding-bottom: 24px;
+}
+.SoftwareengineeringBox,
+.ComputerartBox,
+.DataBox,
+.BusinessBox {
+  margin-right: 32px;
+}
+.SoftwareengineeringBox img,
+.ComputerartBox img,
+.DesignBox img,
+.DataBox img,
+.BusinessBox img,
+.MarketingBox img{
+  height: auto;
+  width: 100%;
+}
+
+.SoftwareengineeringBox p:first-child,
+.ComputerartBox p:first-child,
+.DesignBox p:first-child,
+.DataBox p:first-child,
+.BusinessBox p:first-child,
+.MarketingBox p:first-child{
+  color: black;
+  font-weight: bold;
+  font-size: 1.5rem;
+  padding-top: 16px;
+}
+.SoftwareengineeringBox p:nth-child(2),
+.ComputerartBox p:nth-child(2),
+.DesignBox p:nth-child(2),
+.DataBox p:nth-child(2),
+.BusinessBox p:nth-child(2),
+.MarketingBox p:nth-child(2){
+  color: black;
+  font-size: 1.3rem;
+  padding: 8px 0;
+}
+.SoftwareengineeringBox p:nth-child(3),
+.ComputerartBox p:nth-child(3),
+.DesignBox p:nth-child(3),
+.DataBox p:nth-child(3),
+.BusinessBox p:nth-child(3),
+.MarketingBox p:nth-child(3){
+  color: black;
+  font-size: 1.3rem;
+  padding-bottom: 24px;
+}
+.container3 p{
+  margin-left: 16px;
+}
