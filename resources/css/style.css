@@ -1,6 +1,6 @@
 html {
   font-size: 18px;
-  color: grey;
+  color: #915608;
   font-family: Helvetica;
 }
 h1 {
@@ -9,7 +9,7 @@ h1 {
 }
 /*Header*/
 header {
-  background-color: white;
+  background-color: #E0CDB2;
   display: flex;
   height: 64px;
   width: 100%;
@@ -26,6 +26,11 @@ header {
 }
 .logo img {
   height: 32px;
+
+}
+.colmar {
+  color: #744200;
+  font-weight: bold;
 }
 .nav {
   display: flex;
@@ -44,11 +49,20 @@ header .online,
 header .login {
   display: none;
 }
+.nav span:nth-child(n):hover {
+  box-shadow: 10px 10px 5px #744200;
+  border: 1px solid #744200;
+  transition: all .05s ease .01s;
+}
+.nav span:nth-child(n):active {
+  color: #744200;
+  font-weight: bold;
+}
 /*Container1*/
 .container1 {
   display: flex;
   align-items: center;
-  background-color: lightgray;
+  background-color: #C3A377;
 }
 .container1 img {
 
@@ -67,18 +81,28 @@ header .login {
 .Learn {
   line-height: 1.5;
   font-size: 2rem;
-
+  color: #744200;
 }
 .Lorem {
   line-height: 1.3;
   font-size: 1.5rem;
+  color: #744200;
 }
 .Start {
-  background-color: grey;
+  background-color: #915608;
   color: white;
   padding: 8px 50px;
   width: 100px;
   text-align: center;
+}
+.Start:active {
+  color: #E0CDB2;
+  font-weight: bold;
+}
+.Start:hover {
+  box-shadow: 10px 10px 5px #744200;
+  border: 1px solid #744200;
+  transition: all .05s ease .01s;
 }
 /*container2*/
 .container2 {
@@ -87,6 +111,7 @@ header .login {
 .container2a {
   width: 100%;
   padding: 0 24px;
+  background-color: #E0CDB2;
 
 }
 .container2a img {
@@ -96,22 +121,27 @@ header .login {
 }
 .container2a div p:nth-child(1) {
   margin-bottom: 24px;
+  color: #744200;
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 .container2a div p:nth-child(3) {
   margin-top: 32px;
   margin-bottom: 32px;
 }
 .container2b {
-  border-left: 3px solid lightgray;
+  border-left: 3px solid #C3A377;
+  width: 60%;
+  background-color: #E0CDB2;
 }
 .OrientationBox {
-  border-bottom: 3px solid lightgray;
+  border-bottom: 3px solid #C3A377;
 }
 .OurCampusBox {
-  border-top: 3px solid lightgray;
+  border-top: 3px solid #C3A377;
 }
 .OurguestlectureBox {
-  background-color: lightgray;
+  background-color: #C3A377;
 }
 .OrientationBox,
 .OurCampusBox,
@@ -138,14 +168,14 @@ header .login {
 .OrientationBox p:nth-child(1),
 .OurCampusBox p:nth-child(1),
 .OurguestlectureBox p:nth-child(1) {
-  color: black;
+  color: #744200;
   font-weight: bold;
   font-size: 1.5rem;
 }
 .OrientationBox p:nth-child(2),
 .OurCampusBox p:nth-child(2),
 .OurguestlectureBox p:nth-child(2) {
-  color: black;
+  color: #915608;
   font-size: 1.3rem;
   margin: 8px 0;
 
@@ -155,14 +185,22 @@ header .login {
 .OurguestlectureBox p:nth-child(3) {
   color: blue;
 }
+.OrientationBox p:nth-child(3):active,
+.OurCampusBox p:nth-child(3):active,
+.OurguestlectureBox p:nth-child(3):active {
+  color: darkblue;
+  font-weight: bold;
+}
 /*Container3*/
 .container3 {
-  background-color: lightgray;
+  background-color: #C3A377;
   padding: 32px 72px;
 }
 
 .container3 h1 {
   margin-bottom: 32px;
+  color: #744200;
+  font-weight: bold;
 }
 .container3a,
 .container3b {
@@ -177,7 +215,7 @@ header .login {
 .DataBox,
 .BusinessBox,
 .MarketingBox{
-  background-color: white;
+  background-color: #E0CDB2;
   padding-bottom: 24px;
 }
 .SoftwareengineeringBox,
@@ -202,10 +240,30 @@ header .login {
 .DataBox p:nth-child(2),
 .BusinessBox p:nth-child(2),
 .MarketingBox p:nth-child(2){
-  color: black;
+  color: #744200;
   font-weight: bold;
   font-size: 1.5rem;
-  padding-top: 16px;
+  margin-top: 16px;
+}
+.SoftwareengineeringBox p:nth-child(2):hover,
+.ComputerartBox p:nth-child(2):hover,
+.DesignBox p:nth-child(2):hover,
+.DataBox p:nth-child(2):hover,
+.BusinessBox p:nth-child(2):hover,
+.MarketingBox p:nth-child(2):hover {
+  box-shadow: 10px 10px 5px #744200;
+  border: 1px solid #744200;
+  border-radius: 5px;
+  transition: all .05s ease .01s;
+}
+.SoftwareengineeringBox p:nth-child(2):active,
+.ComputerartBox p:nth-child(2):active,
+.DesignBox p:nth-child(2):active,
+.DataBox p:nth-child(2):active,
+.BusinessBox p:nth-child(2):active,
+.MarketingBox p:nth-child(2):active {
+  color: black;
+  font-weight: bold;
 }
 .SoftwareengineeringBox p:nth-child(3),
 .ComputerartBox p:nth-child(3),
@@ -213,7 +271,7 @@ header .login {
 .DataBox p:nth-child(3),
 .BusinessBox p:nth-child(3),
 .MarketingBox p:nth-child(3){
-  color: black;
+  color: #915608;
   font-size: 1.3rem;
   padding: 8px 0;
 }
@@ -223,7 +281,7 @@ header .login {
 .DataBox p:nth-child(4),
 .BusinessBox p:nth-child(4),
 .MarketingBox p:nth-child(4){
-  color: black;
+  color: #915608;
   font-size: 1.3rem;
   padding-bottom: 24px;
 }
@@ -234,9 +292,12 @@ header .login {
 .subcontainer4 {
   display: flex;
   padding-bottom: 32px;
+  background-color: #E0CDB2;
 }
 .container4 h1 {
   padding: 32px 0;
+  background-color:#E0CDB2;
+  color: #744200;
 }
 .subcontainer4a {
   width: 60%;
@@ -249,6 +310,7 @@ header .login {
   padding-bottom: 8px;
   font-weight: bold;
   font-size: 1.5rem;
+  color: #744200;
 
 }
 .subcontainer4b1,
@@ -266,19 +328,32 @@ header .login {
   height: auto;
 }
 .subcontainer4b1 {
-  background-color: lightgray;
+  background-color: #C3A377;
 }
 .textcontainer4a p:first-child,
 .textcontainer4b p:first-child {
   font-size: 1.3rem;
-  color: gray;
+  color: #744200;
   line-height: 1.6;
+}
+.textcontainer4a p:first-child:hover,
+.textcontainer4b p:first-child:hover {
+box-shadow: 10px 10px 5px #744200;
+border: 1px solid #744200;
+border-radius: 5px;
+transition: all .05s ease .01s;
+}
+.textcontainer4a p:first-child:active,
+.textcontainer4b p:first-child:active {
+  color: black;
+  font-weight: bold;
 }
 /*Footer*/
 footer {
   display: flex;
   padding: 16px 0 50px 24px;
-  border-top: 2px solid lightgray;
+  border-top: 2px solid #C3A377;
+  background-color: #E0CDB2;
 }
 .copyright {
   flex-grow: 1;
@@ -289,10 +364,20 @@ footer div {
 
 }
 footer div p {
-  padding-right: 24px;
+  margin-right: 24px;
+}
+footer div p:hover {
+box-shadow: 10px 10px 5px #744200;
+border: 1px solid #744200;
+border-radius: 5px;
+transition: all .05s ease .01s;
+}
+footer div p:active {
+  color: #744200;
+  font-weight: bold;
 }
 /*Media Queries*/
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 850px) {
   /*Header*/
   header .logo,
   header .nav {
@@ -308,7 +393,7 @@ footer div p {
   /*container1*/
   .container1 {
     display: initial;
-    background-color: lightgray;
+    background-color: #C3A377;
 
   }
   .container1a {
@@ -316,7 +401,7 @@ footer div p {
     padding: 0;
   }
   .textcontainer1 {
-    background-color: lightgray;
+    background-color: #C3A377;
   }
 
   .Learn {
@@ -326,18 +411,21 @@ footer div p {
     padding-left: 16px;
   }
   .Start {
-    margin: 24px 4px 32px 16px;
+    margin: 24px 16px 32px 16px;
   }
   /* Container 2*/
   .container2a {
     display: none;
   }
+  .container2b {
+    width: 100%;
+  }
   .OrientationBox {
-    border-bottom: 0 solid lightgray;
+    border-bottom: 0 solid #C3A377;
     padding-top: 16px;
   }
   .OurCampusBox {
-    border-top: 0 solid lightgray;
+    border-top: 0 solid #C3A377;
   }
   .OurguestlectureBox {
     background-color: white;
@@ -345,10 +433,20 @@ footer div p {
   .OrientationBox,
   .OurCampusBox,
   .OurguestlectureBox {
-    padding: 16px 16px 32px 16px;
+    padding: 0 16px 0 16px;
     flex-direction: column;
     margin: 0;
     align-items: flex-start;
+
+  }
+  .OrientationBox {
+    padding-top: 16px;
+    padding-bottom: 64px;
+  }
+  .OurguestlectureBox {
+    padding-top: 64px;
+    padding-bottom: 32px;
+    background-color: #E0CDB2;
 
   }
   .OrientationBox div,
@@ -370,8 +468,9 @@ footer div p {
   }
   /* Container 3*/
   .container3 {
-    background-color: white;
+    background-color: #E0CDB2;
     padding: 32px 10px;
+    border: 1px solid #C3A377;
   }
   .container3 h1 {
     margin-bottom: 16px;
@@ -390,10 +489,13 @@ footer div p {
   .DataBox,
   .BusinessBox,
   .MarketingBox{
-    background-color: lightgray;
+    background-color: #C3A377;
     padding: 16px 16px 24px 16px;
     margin-bottom: 8px;
     text-align: left;
+  }
+  .MarketingBox {
+    margin-bottom: 0;
   }
   .SoftwareengineeringBox,
   .ComputerartBox,
@@ -455,7 +557,8 @@ footer div p {
   footer {
     display: flex;
     padding: 16px 0 16px 24px;
-    border-top: 0 solid lightgray;
+    border-top: 0 solid #C3A377;
+
   }
 
   footer div {
