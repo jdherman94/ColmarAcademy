@@ -1,7 +1,7 @@
 html {
   font-size: 18px;
   color: #915608;
-  font-family: Helvetica;
+  font-family: Arial, Helvetica, sans-serif
 }
 h1 {
   font-size: 2rem;
@@ -32,15 +32,15 @@ header {
   color: #744200;
   font-weight: bold;
 }
-.nav {
+nav {
   display: flex;
   align-items: center;
 
 }
-.nav span {
+nav span {
   margin-right: 16px;
 }
-.nav span:last-child {
+nav span:last-child {
   margin-right: 24px;
 }
 header .logo2,
@@ -49,12 +49,12 @@ header .online,
 header .login {
   display: none;
 }
-.nav span:nth-child(n):hover {
+nav span:nth-child(n):hover {
   box-shadow: 10px 10px 5px #744200;
   border: 1px solid #744200;
   transition: all .05s ease .01s;
 }
-.nav span:nth-child(n):active {
+nav span:nth-child(n):active {
   color: #744200;
   font-weight: bold;
 }
@@ -68,6 +68,7 @@ header .login {
 
   margin: auto;
   width: 100%;
+
 }
 .container1a {
   width: 60%;
@@ -82,6 +83,7 @@ header .login {
   line-height: 1.5;
   font-size: 2rem;
   color: #744200;
+  font-family: 'Times New Roman', Times, serif;
 }
 .Lorem {
   line-height: 1.3;
@@ -124,10 +126,13 @@ header .login {
   color: #744200;
   font-size: 1.5rem;
   font-weight: bold;
+  font-family:  'Times New Roman', Times, serif;
 }
 .container2a div p:nth-child(3) {
   margin-top: 32px;
   margin-bottom: 32px;
+  font-weight: bold;
+  font-size: .8rem;
 }
 .container2b {
   border-left: 3px solid #C3A377;
@@ -171,7 +176,9 @@ header .login {
   color: #744200;
   font-weight: bold;
   font-size: 1.5rem;
+  font-family:  'Times New Roman', Times, serif;
 }
+
 .OrientationBox p:nth-child(2),
 .OurCampusBox p:nth-child(2),
 .OurguestlectureBox p:nth-child(2) {
@@ -201,7 +208,9 @@ header .login {
   margin-bottom: 32px;
   color: #744200;
   font-weight: bold;
+  font-family:  'Times New Roman', Times, serif;
 }
+
 .container3a,
 .container3b {
   display: flex;
@@ -244,6 +253,8 @@ header .login {
   font-weight: bold;
   font-size: 1.5rem;
   margin-top: 16px;
+  font-family:  'Times New Roman', Times, serif;
+
 }
 .SoftwareengineeringBox p:nth-child(2):hover,
 .ComputerartBox p:nth-child(2):hover,
@@ -251,9 +262,8 @@ header .login {
 .DataBox p:nth-child(2):hover,
 .BusinessBox p:nth-child(2):hover,
 .MarketingBox p:nth-child(2):hover {
-  box-shadow: 10px 10px 5px #744200;
-  border: 1px solid #744200;
-  border-radius: 5px;
+  text-shadow: 10px 10px 5px #744200;
+
   transition: all .05s ease .01s;
 }
 .SoftwareengineeringBox p:nth-child(2):active,
@@ -298,6 +308,8 @@ header .login {
   padding: 32px 0;
   background-color:#E0CDB2;
   color: #744200;
+  font-weight: bold;
+  font-family:  'Times New Roman', Times, serif;
 }
 .subcontainer4a {
   width: 60%;
@@ -311,6 +323,7 @@ header .login {
   font-weight: bold;
   font-size: 1.5rem;
   color: #744200;
+  font-family:  'Times New Roman', Times, serif;
 
 }
 .subcontainer4b1,
@@ -335,12 +348,12 @@ header .login {
   font-size: 1.3rem;
   color: #744200;
   line-height: 1.6;
+  font-family:  'Times New Roman', Times, serif;
 }
 .textcontainer4a p:first-child:hover,
 .textcontainer4b p:first-child:hover {
-box-shadow: 10px 10px 5px #744200;
-border: 1px solid #744200;
-border-radius: 5px;
+text-shadow: 10px 10px 5px #744200;
+
 transition: all .05s ease .01s;
 }
 .textcontainer4a p:first-child:active,
@@ -380,7 +393,7 @@ footer div p:active {
 @media only screen and (max-width: 850px) {
   /*Header*/
   header .logo,
-  header .nav {
+  header nav {
     display: none;
   }
   header .logo2,
@@ -389,7 +402,10 @@ footer div p:active {
   header .login {
     display: flex;
     flex-grow: 1;
+
   }
+
+
   /*container1*/
   .container1 {
     display: initial;
